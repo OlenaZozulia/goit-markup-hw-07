@@ -64,6 +64,8 @@ img {
 .link {
   text-decoration: none;
 }
+
+/*******************************************************************************************************************************************/
 /* Для приховування заголовку */
 .visually-hidden {
   position: absolute;
@@ -105,7 +107,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-/*** Логотип у header and footer ***/
+/* Логотип у header and footer */
 .logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -114,8 +116,22 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
 }
-/**** іконки соцмереж для cards-team і для footer - 
-відмінність у background***/
+
+/* button */
+.button {
+  display: block;
+  margin: auto;
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--second-bg-color);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* іконки соцмереж для cards-team і для footer - відмінність у background */
 
 .social-icon {
   display: flex;
@@ -132,6 +148,8 @@ img {
   cursor: pointer;
   transition: background-color var(--animation-transform);
 }
+
+/**************************************************************************************************************************/
 
 /******* header*****/
 .header {
@@ -268,23 +286,8 @@ img {
   color: var(--primary-white-color);
 }
 
-/* button */
-.button {
-  /*font-family: Roboto, sans-serif;*/
-  display: block;
-  margin: auto;
-  font-family: inherit;
-  font-size: 16px;
-  text-align: center;
-  border-color: transparent;
-  border-radius: 4px;
-  background-color: var(--second-bg-color);
-  cursor: pointer;
-  /* border: 1px solid transparent;*/
-}
 /* button in section Hero */
-.button.hero-button {
-  /* display: block;*/
+.button--hero {
   text-align: center;
   font-weight: 700;
   line-height: 1.88;
@@ -294,10 +297,8 @@ img {
   padding: 10px 32px;
   min-width: 216px;
 }
-/* fiter (buttons) for page Portfolio*/
 
 /* features особливості рішень*/
-
 .features-list {
   display: flex;
   gap: 30px;
@@ -435,26 +436,22 @@ img {
   cursor: pointer;
   transition: border var(--animation-transform);
 }
-
 .clients-icon__svg {
   width: 106px;
   height: 60px;
   fill: var(--icon-color);
   transition: fill var(--animation-transform);
 }
-
 .clients-icon__link:hover,
 .clients-icon__link:focus {
   border: 1px solid var(--accent-text-color);
 }
-
 .clients-icon__link:hover .clients-icon__svg,
 .clients-icon__link:focus .clients-icon__svg {
   fill: var(--accent-text-color);
-  /*transition: fill var(--animation-transform);*/
 }
-/* page Portfolio */
 
+/* page Portfolio */
 /* fiter (buttons) for page Portfolio*/
 .filter-list {
   display: flex;
@@ -637,18 +634,16 @@ img {
 }
 
 /*** footer -forma ****/
-
 .footer-forma {
   width: 570px;
 }
-
-.footer-forma-content {
+.footer-forma__content {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.footer-forma .title {
+.footer-forma__title {
   font-style: normal;
   font-size: 14px;
   font-weight: 700;
@@ -659,7 +654,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-forma-field {
+.footer-forma__field {
   padding: 0;
   margin-right: 12px;
   width: 358px;
@@ -671,24 +666,19 @@ img {
   border-radius: 4px;
 }
 
-.button-footer-forma {
-  /*position: relative;*/
+/* button--footer*/
+.button--footer-forma {
   padding: 0;
   width: 200px;
   height: 50px;
   font-weight: 700;
-  font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--primary-white-color);
   text-transform: capitalize;
   background-color: var(--accent-text-color);
-  border: transparent;
-  border-radius: 4px;
-  letter-spacing: 0.06em;
-  cursor: pointer;
 }
 
-.footer-send-icon {
+.footer-forma__send-icon {
   margin-left: 10px;
   transform: translate(0, 25%);
   fill: var(--primary-white-color);
