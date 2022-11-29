@@ -337,7 +337,7 @@ img {
   flex-basis: 370px;
   position: relative;
 }
-.work-description {
+.work-list__description {
   position: absolute;
   display: block;
   bottom: 0;
