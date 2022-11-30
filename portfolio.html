@@ -57,11 +57,21 @@
         <div class="container">
           <!-- <div class="filter-button">-->
           <ul class="filter-list list">
-            <li class="item"><button type="button" class="button second">Усі</button></li>
-            <li class="item"><button type="button" class="button second">Веб-сайти</button></li>
-            <li class="item"><button type="button" class="button second">Додатки</button></li>
-            <li class="item"><button type="button" class="button second">Дизайн</button></li>
-            <li class="item"><button type="button" class="button second">Маркетинг</button></li>
+            <li class="filter-list__item">
+              <button type="button" class="button button--portfolio">Усі</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="button button--portfolio">Веб-сайти</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="button button--portfolio">Додатки</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="button button--portfolio">Дизайн</button>
+            </li>
+            <li class="filter-list__item">
+              <button type="button" class="button button--portfolio">Маркетинг</button>
+            </li>
           </ul>
           <!--</div>-->
         </div>
@@ -69,8 +79,8 @@
         <!--foto portfolio-->
         <div class="container">
           <ul class="portfolio-list list">
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img
                     class="img-portfolio"
@@ -89,13 +99,13 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title">Технокряк</h3>
-                  <p class="description">Веб-сайт</p>
+                  <h3 class="portfolio-content__title">Технокряк</h3>
+                  <p class="portfolio-content__description">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-2.jpg" alt="Назва постеру" width="370" />
                   <div class="overlay-portfolio">
@@ -108,13 +118,15 @@
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <h3 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
-                  <p class="description">Дизайн</p>
+                  <h3 class="portfolio-content__title">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h3>
+                  <p class="portfolio-content__description">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-3.jpg" alt="Назва ресторану" width="370" />
                   <div class="overlay-portfolio">
@@ -127,14 +139,14 @@
                   </div>
                 </div>
                 <div class="portfolio-content">
-                  <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
-                  <p class="description">Додаток</p>
+                  <h3 class="portfolio-content__title">Ресторан <span lang="en">Seafood</span></h3>
+                  <p class="portfolio-content__description">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-4.jpg" alt="Назва проекту" width="370" />
                   <div class="overlay-portfolio">
@@ -148,14 +160,14 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title">Проєкт <span lang="en">Prime</span></h3>
-                  <p class="description">Маркетинг</p>
+                  <h3 class="portfolio-content__title">Проєкт <span lang="en">Prime</span></h3>
+                  <p class="portfolio-content__description">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-5.jpg" alt="Назва проекту" width="370" />
                   <div class="overlay-portfolio">
@@ -169,13 +181,13 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title">Проєкт <span lang="en">Boxes</span></h3>
-                  <p class="description">Додаток</p>
+                  <h3 class="portfolio-content__title">Проєкт <span lang="en">Boxes</span></h3>
+                  <p class="portfolio-content__description">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-6.jpg" alt="Назва сайту" width="370" />
                   <div class="overlay-portfolio">
@@ -189,13 +201,13 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title" lang="en">Inspiration has no Borders</h3>
-                  <p class="description">Веб-сайт</p>
+                  <h3 class="portfolio-content__title" lang="en">Inspiration has no Borders</h3>
+                  <p class="portfolio-content__description">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-7.jpg" alt="Назва видання" width="370" />
                   <div class="overlay-portfolio">
@@ -209,13 +221,15 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title">Видання<span lang="en">Limited Edition</span></h3>
-                  <p class="description">Дизайн</p>
+                  <h3 class="portfolio-content__title">
+                    Видання<span lang="en">Limited Edition</span>
+                  </h3>
+                  <p class="portfolio-content__description">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-8.jpg" alt="Назва проекту" width="370" />
                   <div class="overlay-portfolio">
@@ -229,13 +243,13 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title">Проєкт <span lang="en">LAB</span></h3>
-                  <p class="description">Маркетинг</p>
+                  <h3 class="portfolio-content__title">Проєкт <span lang="en">LAB</span></h3>
+                  <p class="portfolio-content__description">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item">
-              <a href="" class="portfolio-card link">
+            <li class="portfolio-list__item">
+              <a href="" class="portfolio-list__link link">
                 <div class="overlay-card">
                   <img src="./images/portfolio/project-9.jpg" alt="Назва додатку" width="370" />
                   <div class="overlay-portfolio">
@@ -249,8 +263,8 @@
                 </div>
 
                 <div class="portfolio-content">
-                  <h3 class="title" lang="en">Growing Business</h3>
-                  <p class="description">Додаток</p>
+                  <h3 class="portfolio-content__title" lang="en">Growing Business</h3>
+                  <p class="portfolio-content__description">Додаток</p>
                 </div>
               </a>
             </li>
