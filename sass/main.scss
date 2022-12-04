@@ -1,0 +1,33 @@
+// utils styles
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+//base styles
+@import "./base/base";
+@import "./base/reset";
+
+// componetnts styles
+@import "./components/container";
+@import "./components/section";
+@import "./components/header";
+@import "./components/logo-header";
+@import "./components/nav";
+@import "./components/hero";
+@import "./components/features-section";
+@import "./components/work-section";
+@import "./components/team-section";
+@import "./components/social-icon-team";
+@import "./components/clients-section";
+
+// componetnts styles - porfolio page
+@import "./components/filter-portfolio";
+@import "./components/portfolio-section";
+//componetnts styles- footer
+@import "./components/footer-address";
+@import "./components/social-icon-footer";
+@import "./components/footer-forma";
+
+// componetnts styles - modal
+@import "./components/modal-window";
+@import "./components/modal-form";
+@import "./components/modal-checkbox";

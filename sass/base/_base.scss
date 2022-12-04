@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  margin: 0;
+}
+
+/*Логотип у header and footer */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+}
+
+/* button */
+.button {
+  display: block;
+  margin: auto;
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: var(--second-bg-color);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* іконки соцмереж для cards-team і для footer - відмінність у background */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-icon__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  transition: background-color var(--animation-transform);
+}

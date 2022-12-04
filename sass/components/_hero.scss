@@ -1,0 +1,48 @@
+/*************** section hero ********************/
+.hero-section {
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-color: var(--background-hf-color);
+
+  /************задання фону з градієнтом для hero**********/
+  &.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url("../images/bgn/hero-bgn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*outline: 1px solid black;*/
+  }
+}
+
+.hero-title {
+  display: block;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/* button in section Hero */
+.button-hero {
+  @extend .button;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-text-color);
+  padding: 10px 32px;
+  min-width: 216px;
+}

@@ -1,0 +1,22 @@
+/* оформлення basground  іконок соцмереж for cards team*/
+
+.social-icon__link--bcg {
+  @extend .social-icon__link;
+  background-color: var(--primary-bg-color);
+
+  .social-icon__item {
+    width: 20px;
+    height: 20px;
+    fill: var(--icon-color);
+    transition: fill var(--animation-transform);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-text-color);
+  }
+  &:hover .social-icon__item,
+  &:focus .social-icon__item {
+    fill: var(--primary-white-color);
+  }
+}

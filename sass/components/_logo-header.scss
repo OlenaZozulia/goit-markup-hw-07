@@ -1,0 +1,6 @@
+/****** Логотип у хедері - колip для studio  ******/
+
+.logo-dark {
+  @extend .logo;
+  color: var(--logo-studioh-color);
+}

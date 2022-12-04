@@ -1,0 +1,51 @@
+/*** footer -forma **/
+.footer-forma {
+  width: 570px;
+
+  &__content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__title {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  &__field {
+    padding: 0;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    background-color: var(--background-hf-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+  }
+
+  &__send-icon {
+    margin-left: 10px;
+    transform: translate(0, 25%);
+    fill: var(--primary-white-color);
+  }
+
+  &__button {
+    @extend .button;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    line-height: calc(30 / 16);
+    color: var(--primary-white-color);
+    text-transform: capitalize;
+    background-color: var(--accent-text-color);
+  }
+}

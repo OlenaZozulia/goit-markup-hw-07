@@ -1,0 +1,42 @@
+/******footer******/
+
+.footer {
+  background-color: var(--background-hf-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+/***** логотип у футері - перевизначення блоку logo ,кольору Studio****/
+.address-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+.logo-white {
+  @extend .logo;
+  color: var(--primary-white-color);
+}
+
+.address-footer__link {
+  display: block;
+  margin-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+
+  & {
+    color: var(--second-white-color);
+    transition: color var(--animation-transform);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
